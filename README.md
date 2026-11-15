@@ -38,20 +38,44 @@ PAA-TP1-LuanaCardosoBarros/
 ├── heapsort.hpp      # Funções HEAPIFY, BUILD_HEAP e HEAPSORT
 ├── quicksort.hpp     # Funções PARTITION e QUICKSORT
 └── README.md         # Manual de compilação e execução do projeto
-🛠️ Pré-requisitos e Compilação
-Pré-requisitos
-Compilador C++ compatível com o padrão C++11 ou superior (recomendado: g++ / GCC).
-Terminal (Prompt de Comando, PowerShell, Git Bash ou Terminal Linux/macOS).
-Comando de Compilação
+```
+
+---
+
+## 🛠️ Pré-requisitos e Compilação
+
+### Pré-requisitos
+* Compilador C++ compatível com o padrão C++11 ou superior (recomendado: **g++ / GCC**).
+* Terminal (Prompt de Comando, PowerShell, Git Bash ou Terminal Linux/macOS).
+
+### Comando de Compilação
+
 Abra o terminal no diretório do projeto e execute o comando correspondente ao seu sistema operacional:
-No Windows (Prompt de Comando / PowerShell):
-g++ -O3 main.cpp -o tp1.exe
-No Linux / macOS / Git Bash:
-g++ -O3 main.cpp -o tp1
-Nota sobre a flag -O3: A flag de otimização -O3 é fundamental para permitir o processamento eficiente de vetores de grande porte.
-🚀 Como Executar
+
+* **No Windows (Prompt de Comando / PowerShell):**
+  ```cmd
+  g++ -O3 main.cpp -o tp1.exe
+  ```
+
+* **No Linux / macOS / Git Bash:**
+  ```bash
+  g++ -O3 main.cpp -o tp1
+  ```
+
+> **Nota sobre a flag `-O3`:** A flag de otimização `-O3` é fundamental para permitir o processamento eficiente de vetores de grande porte.
+
+---
+
+## 🚀 Como Executar
+
 Após a compilação bem-sucedida, execute o binário gerado:
-No Windows (PowerShell / Prompt de Comando):
-.\tp1.exe
-No Linux / macOS / Git Bash:
-./tp1
+
+* **No Windows (PowerShell / Prompt de Comando):**
+  ```cmd
+  .\tp1.exe
+  ```
+
+* **No Linux / macOS / Git Bash:**
+  ```bash
+  ./tp1
+  ```
